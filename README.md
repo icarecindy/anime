@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>每日一句动漫台词</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/icarecindy/anime/main/styles.css">
 </head>
 <body>
     <header>
@@ -19,6 +19,11 @@
     <footer>
         <p class="footer-text">建立这个网站的初衷是分享动漫中的美好句子，希望这些句子能够带给大家力量与慰藉。</p>
     </footer>
-    <script src="scripts.js"></script>
+    <script>
+        var script = document.createElement('script');
+        script.src = 'https://raw.githubusercontent.com/icarecindy/anime/main/scripts.js';
+        document.body.appendChild(script);
+    </script>
 </body>
 </html>
+这段文字没有呈现出台词框和台词
